@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(27,27,27);
+    color:white;
+}
+
+table, td, tr{
+    border:1px solid black;
+    border-collapse:collapse;
+    color:white;
+}
+table.character_slot , table.character_slot td,table.character_slot tr{
+    border:0px;
+    border-collapse:collapse;
+}
+table.charlist , table.charlist tr{
+    padding:0px;
+    margin:0px;
+    border:none;
+    width:610px;
+}
+td.charlist{
+    padding:0px;
+    margin:0px;
+    border:none;
+
+    border-bottom:3px solid rgb(60,60,60);
+}
+
+table.implantTable{
+    width:350px;
+    border:none;
+    padding:0px;
+    margin:0px;
+    margin-left:250px;
+    
+}
+table.implantTable img{
+    width:32px;
+}
+table.implantTable span{
+    font-size:12px;
+}
+
+td.implantslot{
+    height:32px;
+    width:34px;
+    padding:0px;
+    margin:0px;
+}
+td.implantstat{
+    height:13px;
+    padding:0px;
+    margin:0px;
+}
+
+input.clockcheck{
+    margin-left:30px;
+    transform:scale(1.6);
+
+}
+
+img.portrait{
+    width:48px;
+    height:48px;
+    position:absolute;
+}
+span.username, span.username0{
+    
+    position:absolute;
+
+    
+    width:200px;
+
+    padding:0px;
+    margin:0px;
+ 
+    margin-left:50px;
+
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:"-";
+}
+
+span.username{
+    padding-top:14px;
+    font-size:20px;
+}
+span.username0{
+    padding-top:10px;
+    font-size:26px;
+    color:rgb(255,0,0);
+    background-color:rgb(80,20,20);
+}
